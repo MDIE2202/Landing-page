@@ -1,0 +1,32 @@
+html, body{
+    height:100%;
+    width: 100%;
+
+}
+
+.background{
+    display: flex;
+    height: 100%;
+    width:100%
+    background: gray;
+    flex-direction: column;
+}
+
+.dark{
+    background-color: #1F2937;
+    flex: 1;
+}
+
+.white{
+    background-color: white;
+    flex: 1;
+}
+
+.grey{
+    background-color: #E5E7EB;
+    flex: 1;
+}
+
+p{
+    color: red;
+}
