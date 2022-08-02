@@ -7,7 +7,8 @@ html, body{
 .text1{
     color: white;
     font-size: 24px;
-    font-family: "hero"
+    font-family: "hero";
+    margin-left: 50px;
 }
 
 .text2{
@@ -24,6 +25,7 @@ a:link{
 
 ul{
     list-style-type: none;
+    margin-right: 50px;
 }
 
 li{
@@ -134,7 +136,7 @@ button{
     width: 100%;
     background-color: #1F2937;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -166,7 +168,8 @@ button{
     flex: 1;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+
+    justify-content: space-evenly;
     align-items: center;
     gap: 10%;
 }
